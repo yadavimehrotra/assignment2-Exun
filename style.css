@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 3rem;
+}
+
+form {
+  max-width: 500px;
+  width: 95%;
+  margin: 0 auto;
+  display: block;
+}
+
+.input {
+  margin: 30px 0;
+}
+
+.about {
+  height: 195px;
+  width: 508px;
+  border-radius: 15px;
+  border: 2px solid darkgoldenrod;
+}
+
+/* .input-group > * {
+    display: block;
+  } */
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+input,
+select {
+  margin: 7px;
+  width: 100%;
+  padding: 15px;
+
+  border: 2px solid darkgoldenrod;
+  border-radius: 15px;
+}
+
+button[type="submit"] {
+  padding: 15px 20px;
+  background: #2977f5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: darkgoldenrod;
+}
